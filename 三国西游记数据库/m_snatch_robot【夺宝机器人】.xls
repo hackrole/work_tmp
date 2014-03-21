@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:x="urn:schemas-microsoft-com:office:excel"
+ xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:html="http://www.w3.org/TR/REC-html40">
+ <Worksheet ss:Name="Table1">
+  <Table>
+   <Column ss:Index="2" ss:AutoFitWidth="0" ss:Width="110"/>   <Row>
+    <Cell><Data ss:Type="String">id</Data></Cell>
+    <Cell><Data ss:Type="String">name</Data></Cell>
+    <Cell><Data ss:Type="String">min_id</Data></Cell>
+    <Cell><Data ss:Type="String">max_id</Data></Cell>
+    <Cell><Data ss:Type="String">num</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">10011</Data></Cell>
+    <Cell><Data ss:Type="String">飞剑碎片一</Data></Cell>
+    <Cell><Data ss:Type="Number">4998</Data></Cell>
+    <Cell><Data ss:Type="Number">5000</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">10012</Data></Cell>
+    <Cell><Data ss:Type="String">飞剑碎片二</Data></Cell>
+    <Cell><Data ss:Type="Number">4997</Data></Cell>
+    <Cell><Data ss:Type="Number">4999</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">10022</Data></Cell>
+    <Cell><Data ss:Type="String">禁幡碎片二</Data></Cell>
+    <Cell><Data ss:Type="Number">4996</Data></Cell>
+    <Cell><Data ss:Type="Number">4998</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">10023</Data></Cell>
+    <Cell><Data ss:Type="String">禁幡碎片三</Data></Cell>
+    <Cell><Data ss:Type="Number">4995</Data></Cell>
+    <Cell><Data ss:Type="Number">4997</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">10031</Data></Cell>
+    <Cell><Data ss:Type="String">剑鞘碎片一</Data></Cell>
+    <Cell><Data ss:Type="Number">4994</Data></Cell>
+    <Cell><Data ss:Type="Number">4996</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">10033</Data></Cell>
+    <Cell><Data ss:Type="String">剑鞘碎片三</Data></Cell>
+    <Cell><Data ss:Type="Number">4993</Data></Cell>
+    <Cell><Data ss:Type="Number">4995</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">10041</Data></Cell>
+    <Cell><Data ss:Type="String">宽剑碎片一</Data></Cell>
+    <Cell><Data ss:Type="Number">4992</Data></Cell>
+    <Cell><Data ss:Type="Number">4994</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">10052</Data></Cell>
+    <Cell><Data ss:Type="String">千幻碎片二</Data></Cell>
+    <Cell><Data ss:Type="Number">4991</Data></Cell>
+    <Cell><Data ss:Type="Number">4993</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">10063</Data></Cell>
+    <Cell><Data ss:Type="String">画轴碎片三</Data></Cell>
+    <Cell><Data ss:Type="Number">4990</Data></Cell>
+    <Cell><Data ss:Type="Number">4992</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">10074</Data></Cell>
+    <Cell><Data ss:Type="String">丹宝碎片四</Data></Cell>
+    <Cell><Data ss:Type="Number">4989</Data></Cell>
+    <Cell><Data ss:Type="Number">4991</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">10081</Data></Cell>
+    <Cell><Data ss:Type="String">兽圈碎片一</Data></Cell>
+    <Cell><Data ss:Type="Number">4988</Data></Cell>
+    <Cell><Data ss:Type="Number">4990</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">10094</Data></Cell>
+    <Cell><Data ss:Type="String">草帽碎片四</Data></Cell>
+    <Cell><Data ss:Type="Number">4987</Data></Cell>
+    <Cell><Data ss:Type="Number">4989</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+   </Row>
+  </Table>
+ </Worksheet>
+</Workbook>

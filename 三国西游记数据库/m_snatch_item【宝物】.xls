@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:x="urn:schemas-microsoft-com:office:excel"
+ xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:html="http://www.w3.org/TR/REC-html40">
+ <Worksheet ss:Name="Table1">
+  <Table>
+   <Column ss:Index="2" ss:AutoFitWidth="0" ss:Width="110"/>   <Row>
+    <Cell><Data ss:Type="String">id</Data></Cell>
+    <Cell><Data ss:Type="String">name</Data></Cell>
+    <Cell><Data ss:Type="String">max</Data></Cell>
+    <Cell><Data ss:Type="String">fellow_id</Data></Cell>
+    <Cell><Data ss:Type="String">career</Data></Cell>
+    <Cell><Data ss:Type="String">sex</Data></Cell>
+    <Cell><Data ss:Type="String">min_level</Data></Cell>
+    <Cell><Data ss:Type="String">ttl</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">10010</Data></Cell>
+    <Cell><Data ss:Type="String">血炼飞剑</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">255</Data></Cell>
+    <Cell><Data ss:Type="Number">255</Data></Cell>
+    <Cell><Data ss:Type="Number">20</Data></Cell>
+    <Cell><Data ss:Type="Number">604800</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">10020</Data></Cell>
+    <Cell><Data ss:Type="String">禁幡</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">255</Data></Cell>
+    <Cell><Data ss:Type="Number">255</Data></Cell>
+    <Cell><Data ss:Type="Number">20</Data></Cell>
+    <Cell><Data ss:Type="Number">604800</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">10030</Data></Cell>
+    <Cell><Data ss:Type="String">神秘剑鞘</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">255</Data></Cell>
+    <Cell><Data ss:Type="Number">255</Data></Cell>
+    <Cell><Data ss:Type="Number">20</Data></Cell>
+    <Cell><Data ss:Type="Number">604800</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">10040</Data></Cell>
+    <Cell><Data ss:Type="String">巨富宽剑</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">255</Data></Cell>
+    <Cell><Data ss:Type="Number">255</Data></Cell>
+    <Cell><Data ss:Type="Number">30</Data></Cell>
+    <Cell><Data ss:Type="Number">604800</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">10050</Data></Cell>
+    <Cell><Data ss:Type="String">千幻变</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">255</Data></Cell>
+    <Cell><Data ss:Type="Number">255</Data></Cell>
+    <Cell><Data ss:Type="Number">30</Data></Cell>
+    <Cell><Data ss:Type="Number">604800</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">10060</Data></Cell>
+    <Cell><Data ss:Type="String">神秘画轴</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">255</Data></Cell>
+    <Cell><Data ss:Type="Number">255</Data></Cell>
+    <Cell><Data ss:Type="Number">30</Data></Cell>
+    <Cell><Data ss:Type="Number">604800</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">10070</Data></Cell>
+    <Cell><Data ss:Type="String">黄纸丹宝</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">255</Data></Cell>
+    <Cell><Data ss:Type="Number">255</Data></Cell>
+    <Cell><Data ss:Type="Number">30</Data></Cell>
+    <Cell><Data ss:Type="Number">604800</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">10080</Data></Cell>
+    <Cell><Data ss:Type="String">混元驱兽圈</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">255</Data></Cell>
+    <Cell><Data ss:Type="Number">255</Data></Cell>
+    <Cell><Data ss:Type="Number">30</Data></Cell>
+    <Cell><Data ss:Type="Number">604800</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">10090</Data></Cell>
+    <Cell><Data ss:Type="String">草帽</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">255</Data></Cell>
+    <Cell><Data ss:Type="Number">255</Data></Cell>
+    <Cell><Data ss:Type="Number">30</Data></Cell>
+    <Cell><Data ss:Type="Number">604800</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">10100</Data></Cell>
+    <Cell><Data ss:Type="String">雨之仙剑</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">255</Data></Cell>
+    <Cell><Data ss:Type="Number">255</Data></Cell>
+    <Cell><Data ss:Type="Number">50</Data></Cell>
+    <Cell><Data ss:Type="Number">604800</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">10110</Data></Cell>
+    <Cell><Data ss:Type="String">射神车</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">255</Data></Cell>
+    <Cell><Data ss:Type="Number">255</Data></Cell>
+    <Cell><Data ss:Type="Number">50</Data></Cell>
+    <Cell><Data ss:Type="Number">604800</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">10120</Data></Cell>
+    <Cell><Data ss:Type="String">麒麟魂幡</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">255</Data></Cell>
+    <Cell><Data ss:Type="Number">255</Data></Cell>
+    <Cell><Data ss:Type="Number">50</Data></Cell>
+    <Cell><Data ss:Type="Number">604800</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">10130</Data></Cell>
+    <Cell><Data ss:Type="String">星罗盘</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">255</Data></Cell>
+    <Cell><Data ss:Type="Number">255</Data></Cell>
+    <Cell><Data ss:Type="Number">50</Data></Cell>
+    <Cell><Data ss:Type="Number">604800</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">10140</Data></Cell>
+    <Cell><Data ss:Type="String">昆极鞭</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">255</Data></Cell>
+    <Cell><Data ss:Type="Number">255</Data></Cell>
+    <Cell><Data ss:Type="Number">50</Data></Cell>
+    <Cell><Data ss:Type="Number">604800</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">10150</Data></Cell>
+    <Cell><Data ss:Type="String">血色玉符</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">255</Data></Cell>
+    <Cell><Data ss:Type="Number">255</Data></Cell>
+    <Cell><Data ss:Type="Number">50</Data></Cell>
+    <Cell><Data ss:Type="Number">604800</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">10160</Data></Cell>
+    <Cell><Data ss:Type="String">七星生肖剑</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">255</Data></Cell>
+    <Cell><Data ss:Type="Number">255</Data></Cell>
+    <Cell><Data ss:Type="Number">60</Data></Cell>
+    <Cell><Data ss:Type="Number">604800</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">10170</Data></Cell>
+    <Cell><Data ss:Type="String">闪电银剑</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">255</Data></Cell>
+    <Cell><Data ss:Type="Number">255</Data></Cell>
+    <Cell><Data ss:Type="Number">60</Data></Cell>
+    <Cell><Data ss:Type="Number">604800</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">10180</Data></Cell>
+    <Cell><Data ss:Type="String">点仙笔</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">255</Data></Cell>
+    <Cell><Data ss:Type="Number">255</Data></Cell>
+    <Cell><Data ss:Type="Number">60</Data></Cell>
+    <Cell><Data ss:Type="Number">604800</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">10190</Data></Cell>
+    <Cell><Data ss:Type="String">散魔铠甲</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">255</Data></Cell>
+    <Cell><Data ss:Type="Number">255</Data></Cell>
+    <Cell><Data ss:Type="Number">60</Data></Cell>
+    <Cell><Data ss:Type="Number">604800</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">10200</Data></Cell>
+    <Cell><Data ss:Type="String">古神皮甲</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">255</Data></Cell>
+    <Cell><Data ss:Type="Number">255</Data></Cell>
+    <Cell><Data ss:Type="Number">60</Data></Cell>
+    <Cell><Data ss:Type="Number">604800</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">10210</Data></Cell>
+    <Cell><Data ss:Type="String">龙尊五行冠</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">255</Data></Cell>
+    <Cell><Data ss:Type="Number">255</Data></Cell>
+    <Cell><Data ss:Type="Number">60</Data></Cell>
+    <Cell><Data ss:Type="Number">604800</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">10220</Data></Cell>
+    <Cell><Data ss:Type="String">山河图屏风</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">255</Data></Cell>
+    <Cell><Data ss:Type="Number">255</Data></Cell>
+    <Cell><Data ss:Type="Number">60</Data></Cell>
+    <Cell><Data ss:Type="Number">604800</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">10230</Data></Cell>
+    <Cell><Data ss:Type="String">捆仙网</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">255</Data></Cell>
+    <Cell><Data ss:Type="Number">255</Data></Cell>
+    <Cell><Data ss:Type="Number">60</Data></Cell>
+    <Cell><Data ss:Type="Number">604800</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">10240</Data></Cell>
+    <Cell><Data ss:Type="String">子母道枯</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">255</Data></Cell>
+    <Cell><Data ss:Type="Number">255</Data></Cell>
+    <Cell><Data ss:Type="Number">60</Data></Cell>
+    <Cell><Data ss:Type="Number">604800</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">10250</Data></Cell>
+    <Cell><Data ss:Type="String">抽魂山石</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">255</Data></Cell>
+    <Cell><Data ss:Type="Number">255</Data></Cell>
+    <Cell><Data ss:Type="Number">60</Data></Cell>
+    <Cell><Data ss:Type="Number">604800</Data></Cell>
+   </Row>
+  </Table>
+ </Worksheet>
+</Workbook>

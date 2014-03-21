@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:x="urn:schemas-microsoft-com:office:excel"
+ xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:html="http://www.w3.org/TR/REC-html40">
+ <Worksheet ss:Name="Table1">
+  <Table>
+   <Column ss:Index="3" ss:AutoFitWidth="0" ss:Width="110"/>   <Row>
+    <Cell><Data ss:Type="String">id</Data></Cell>
+    <Cell><Data ss:Type="String">buff_id</Data></Cell>
+    <Cell><Data ss:Type="String">name</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">50001</Data></Cell>
+    <Cell><Data ss:Type="Number">401</Data></Cell>
+    <Cell><Data ss:Type="String">蛮力攻击强化</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">50002</Data></Cell>
+    <Cell><Data ss:Type="Number">402</Data></Cell>
+    <Cell><Data ss:Type="String">蛮力防御强化</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">50003</Data></Cell>
+    <Cell><Data ss:Type="Number">403</Data></Cell>
+    <Cell><Data ss:Type="String">术法攻击强化</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">50004</Data></Cell>
+    <Cell><Data ss:Type="Number">404</Data></Cell>
+    <Cell><Data ss:Type="String">术法防御强化</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">50005</Data></Cell>
+    <Cell><Data ss:Type="Number">405</Data></Cell>
+    <Cell><Data ss:Type="String">绝技攻击强化</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">50006</Data></Cell>
+    <Cell><Data ss:Type="Number">406</Data></Cell>
+    <Cell><Data ss:Type="String">绝技防御强化</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">50007</Data></Cell>
+    <Cell><Data ss:Type="Number">407</Data></Cell>
+    <Cell><Data ss:Type="String">生命力强化</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">50008</Data></Cell>
+    <Cell><Data ss:Type="Number">408</Data></Cell>
+    <Cell><Data ss:Type="String">格挡强化</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">50009</Data></Cell>
+    <Cell><Data ss:Type="Number">409</Data></Cell>
+    <Cell><Data ss:Type="String">闪避强化</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">50010</Data></Cell>
+    <Cell><Data ss:Type="Number">410</Data></Cell>
+    <Cell><Data ss:Type="String">暴击强化</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">50011</Data></Cell>
+    <Cell><Data ss:Type="Number">411</Data></Cell>
+    <Cell><Data ss:Type="String">命中强化</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">50012</Data></Cell>
+    <Cell><Data ss:Type="Number">412</Data></Cell>
+    <Cell><Data ss:Type="String">经验强化</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">55001</Data></Cell>
+    <Cell><Data ss:Type="Number">601</Data></Cell>
+    <Cell><Data ss:Type="String">全体蛮力攻击强化</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">55002</Data></Cell>
+    <Cell><Data ss:Type="Number">602</Data></Cell>
+    <Cell><Data ss:Type="String">全体蛮力防御强化</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">55003</Data></Cell>
+    <Cell><Data ss:Type="Number">603</Data></Cell>
+    <Cell><Data ss:Type="String">全体术法攻击强化</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">55004</Data></Cell>
+    <Cell><Data ss:Type="Number">604</Data></Cell>
+    <Cell><Data ss:Type="String">全体术法防御强化</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">55005</Data></Cell>
+    <Cell><Data ss:Type="Number">605</Data></Cell>
+    <Cell><Data ss:Type="String">全体绝技攻击强化</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">55006</Data></Cell>
+    <Cell><Data ss:Type="Number">606</Data></Cell>
+    <Cell><Data ss:Type="String">全体绝技防御强化</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">55007</Data></Cell>
+    <Cell><Data ss:Type="Number">607</Data></Cell>
+    <Cell><Data ss:Type="String">全体生命力强化</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">55008</Data></Cell>
+    <Cell><Data ss:Type="Number">608</Data></Cell>
+    <Cell><Data ss:Type="String">全体格挡强化</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">55009</Data></Cell>
+    <Cell><Data ss:Type="Number">609</Data></Cell>
+    <Cell><Data ss:Type="String">全体闪避强化</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">55010</Data></Cell>
+    <Cell><Data ss:Type="Number">610</Data></Cell>
+    <Cell><Data ss:Type="String">全体暴击强化</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">55011</Data></Cell>
+    <Cell><Data ss:Type="Number">611</Data></Cell>
+    <Cell><Data ss:Type="String">全体命中强化</Data></Cell>
+   </Row>
+  </Table>
+ </Worksheet>
+</Workbook>

@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:x="urn:schemas-microsoft-com:office:excel"
+ xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:html="http://www.w3.org/TR/REC-html40">
+ <Worksheet ss:Name="Table1">
+  <Table>
+   <Column ss:Index="2" ss:AutoFitWidth="0" ss:Width="110"/>   <Row>
+    <Cell><Data ss:Type="String">id</Data></Cell>
+    <Cell><Data ss:Type="String">name</Data></Cell>
+    <Cell><Data ss:Type="String">cid</Data></Cell>
+    <Cell><Data ss:Type="String">time</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">100</Data></Cell>
+    <Cell><Data ss:Type="String">经验1.2倍</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">101</Data></Cell>
+    <Cell><Data ss:Type="String">经验1.25倍</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">102</Data></Cell>
+    <Cell><Data ss:Type="String">经验1.5倍</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">103</Data></Cell>
+    <Cell><Data ss:Type="String">经验1.75倍</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">104</Data></Cell>
+    <Cell><Data ss:Type="String">经验2倍</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">105</Data></Cell>
+    <Cell><Data ss:Type="String">经验3倍</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">200</Data></Cell>
+    <Cell><Data ss:Type="String">掉率1.2倍</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">201</Data></Cell>
+    <Cell><Data ss:Type="String">掉率1.25倍</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">202</Data></Cell>
+    <Cell><Data ss:Type="String">掉率1.5倍</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">203</Data></Cell>
+    <Cell><Data ss:Type="String">掉率1.75倍</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">204</Data></Cell>
+    <Cell><Data ss:Type="String">掉率2倍</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">205</Data></Cell>
+    <Cell><Data ss:Type="String">掉率3倍</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">300</Data></Cell>
+    <Cell><Data ss:Type="String">经验、掉率3倍</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">401</Data></Cell>
+    <Cell><Data ss:Type="String">蛮力攻击强化</Data></Cell>
+    <Cell><Data ss:Type="Number">3</Data></Cell>
+    <Cell><Data ss:Type="Number">3600</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">402</Data></Cell>
+    <Cell><Data ss:Type="String">蛮力防御强化</Data></Cell>
+    <Cell><Data ss:Type="Number">4</Data></Cell>
+    <Cell><Data ss:Type="Number">3600</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">403</Data></Cell>
+    <Cell><Data ss:Type="String">术法攻击强化</Data></Cell>
+    <Cell><Data ss:Type="Number">5</Data></Cell>
+    <Cell><Data ss:Type="Number">3600</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">404</Data></Cell>
+    <Cell><Data ss:Type="String">术法防御强化</Data></Cell>
+    <Cell><Data ss:Type="Number">6</Data></Cell>
+    <Cell><Data ss:Type="Number">3600</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">405</Data></Cell>
+    <Cell><Data ss:Type="String">绝技攻击强化</Data></Cell>
+    <Cell><Data ss:Type="Number">7</Data></Cell>
+    <Cell><Data ss:Type="Number">3600</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">406</Data></Cell>
+    <Cell><Data ss:Type="String">绝技防御强化</Data></Cell>
+    <Cell><Data ss:Type="Number">8</Data></Cell>
+    <Cell><Data ss:Type="Number">3600</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">407</Data></Cell>
+    <Cell><Data ss:Type="String">生命力强化</Data></Cell>
+    <Cell><Data ss:Type="Number">9</Data></Cell>
+    <Cell><Data ss:Type="Number">3600</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">408</Data></Cell>
+    <Cell><Data ss:Type="String">格挡强化</Data></Cell>
+    <Cell><Data ss:Type="Number">10</Data></Cell>
+    <Cell><Data ss:Type="Number">3600</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">409</Data></Cell>
+    <Cell><Data ss:Type="String">闪避强化</Data></Cell>
+    <Cell><Data ss:Type="Number">11</Data></Cell>
+    <Cell><Data ss:Type="Number">3600</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">410</Data></Cell>
+    <Cell><Data ss:Type="String">暴击强化</Data></Cell>
+    <Cell><Data ss:Type="Number">12</Data></Cell>
+    <Cell><Data ss:Type="Number">3600</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">411</Data></Cell>
+    <Cell><Data ss:Type="String">命中强化</Data></Cell>
+    <Cell><Data ss:Type="Number">13</Data></Cell>
+    <Cell><Data ss:Type="Number">3600</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">412</Data></Cell>
+    <Cell><Data ss:Type="String">经验强化</Data></Cell>
+    <Cell><Data ss:Type="Number">14</Data></Cell>
+    <Cell><Data ss:Type="Number">3600</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">601</Data></Cell>
+    <Cell><Data ss:Type="String">全体蛮力攻击强化</Data></Cell>
+    <Cell><Data ss:Type="Number">3</Data></Cell>
+    <Cell><Data ss:Type="Number">3600</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">602</Data></Cell>
+    <Cell><Data ss:Type="String">全体蛮力防御强化</Data></Cell>
+    <Cell><Data ss:Type="Number">4</Data></Cell>
+    <Cell><Data ss:Type="Number">3600</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">603</Data></Cell>
+    <Cell><Data ss:Type="String">全体术法攻击强化</Data></Cell>
+    <Cell><Data ss:Type="Number">5</Data></Cell>
+    <Cell><Data ss:Type="Number">3600</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">604</Data></Cell>
+    <Cell><Data ss:Type="String">全体术法防御强化</Data></Cell>
+    <Cell><Data ss:Type="Number">6</Data></Cell>
+    <Cell><Data ss:Type="Number">3600</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">605</Data></Cell>
+    <Cell><Data ss:Type="String">全体绝技攻击强化</Data></Cell>
+    <Cell><Data ss:Type="Number">7</Data></Cell>
+    <Cell><Data ss:Type="Number">3600</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">606</Data></Cell>
+    <Cell><Data ss:Type="String">全体绝技防御强化</Data></Cell>
+    <Cell><Data ss:Type="Number">8</Data></Cell>
+    <Cell><Data ss:Type="Number">3600</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">607</Data></Cell>
+    <Cell><Data ss:Type="String">全体生命力强化</Data></Cell>
+    <Cell><Data ss:Type="Number">9</Data></Cell>
+    <Cell><Data ss:Type="Number">3600</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">608</Data></Cell>
+    <Cell><Data ss:Type="String">全体格挡强化</Data></Cell>
+    <Cell><Data ss:Type="Number">10</Data></Cell>
+    <Cell><Data ss:Type="Number">3600</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">609</Data></Cell>
+    <Cell><Data ss:Type="String">全体闪避强化</Data></Cell>
+    <Cell><Data ss:Type="Number">11</Data></Cell>
+    <Cell><Data ss:Type="Number">3600</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">610</Data></Cell>
+    <Cell><Data ss:Type="String">全体暴击强化</Data></Cell>
+    <Cell><Data ss:Type="Number">12</Data></Cell>
+    <Cell><Data ss:Type="Number">3600</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">611</Data></Cell>
+    <Cell><Data ss:Type="String">全体命中强化</Data></Cell>
+    <Cell><Data ss:Type="Number">13</Data></Cell>
+    <Cell><Data ss:Type="Number">3600</Data></Cell>
+   </Row>
+  </Table>
+ </Worksheet>
+</Workbook>

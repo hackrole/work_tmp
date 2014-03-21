@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:x="urn:schemas-microsoft-com:office:excel"
+ xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:html="http://www.w3.org/TR/REC-html40">
+ <Worksheet ss:Name="Table1">
+  <Table>
+   <Column ss:Index="2" ss:AutoFitWidth="0" ss:Width="110"/>   <Column ss:Index="3" ss:AutoFitWidth="0" ss:Width="110"/>   <Row>
+    <Cell><Data ss:Type="String">id</Data></Cell>
+    <Cell><Data ss:Type="String">name</Data></Cell>
+    <Cell><Data ss:Type="String">item_list</Data></Cell>
+    <Cell><Data ss:Type="String">notice</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">10010</Data></Cell>
+    <Cell><Data ss:Type="String">血炼飞剑</Data></Cell>
+    <Cell><Data ss:Type="String">10011:1,10012:1,10013:1</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">10020</Data></Cell>
+    <Cell><Data ss:Type="String">禁幡</Data></Cell>
+    <Cell><Data ss:Type="String">10021:1,10022:1,10023:1</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">10030</Data></Cell>
+    <Cell><Data ss:Type="String">神秘剑鞘</Data></Cell>
+    <Cell><Data ss:Type="String">10031:1,10032:1,10033:1</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">10040</Data></Cell>
+    <Cell><Data ss:Type="String">巨富宽剑</Data></Cell>
+    <Cell><Data ss:Type="String">10041:1,10042:1,10043:1,10044:1</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">10050</Data></Cell>
+    <Cell><Data ss:Type="String">千幻变</Data></Cell>
+    <Cell><Data ss:Type="String">10051:1,10052:1,10053:1,10054:1</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">10060</Data></Cell>
+    <Cell><Data ss:Type="String">神秘画轴</Data></Cell>
+    <Cell><Data ss:Type="String">10061:1,10062:1,10063:1,10064:1</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">10070</Data></Cell>
+    <Cell><Data ss:Type="String">黄纸丹宝</Data></Cell>
+    <Cell><Data ss:Type="String">10071:1,10072:1,10073:1,10074:1</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">10080</Data></Cell>
+    <Cell><Data ss:Type="String">混元驱兽圈</Data></Cell>
+    <Cell><Data ss:Type="String">10081:1,10082:1,10083:1,10084:1</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">10090</Data></Cell>
+    <Cell><Data ss:Type="String">草帽</Data></Cell>
+    <Cell><Data ss:Type="String">10091:1,10092:1,10093:1,10094:1</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">10100</Data></Cell>
+    <Cell><Data ss:Type="String">雨之仙剑</Data></Cell>
+    <Cell><Data ss:Type="String">10101:1,10102:1,10103:1,10104:1,10105:1</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">10110</Data></Cell>
+    <Cell><Data ss:Type="String">射神车</Data></Cell>
+    <Cell><Data ss:Type="String">10111:1,10112:1,10113:1,10114:1,10115:1</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">10120</Data></Cell>
+    <Cell><Data ss:Type="String">麒麟魂幡</Data></Cell>
+    <Cell><Data ss:Type="String">10121:1,10122:1,10123:1,10124:1,10125:1</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">10130</Data></Cell>
+    <Cell><Data ss:Type="String">星罗盘</Data></Cell>
+    <Cell><Data ss:Type="String">10131:1,10132:1,10133:1,10134:1,10135:1</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">10140</Data></Cell>
+    <Cell><Data ss:Type="String">昆极鞭</Data></Cell>
+    <Cell><Data ss:Type="String">10141:1,10142:1,10143:1,10144:1,10145:1</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">10150</Data></Cell>
+    <Cell><Data ss:Type="String">血色玉符</Data></Cell>
+    <Cell><Data ss:Type="String">10151:1,10152:1,10153:1,10154:1,10155:1</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">10160</Data></Cell>
+    <Cell><Data ss:Type="String">七星生肖剑</Data></Cell>
+    <Cell><Data ss:Type="String">10161:1,10162:1,10163:1,10164:1,10165:1,10166:1</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">10170</Data></Cell>
+    <Cell><Data ss:Type="String">闪电银剑</Data></Cell>
+    <Cell><Data ss:Type="String">10171:1,10172:1,10173:1,10174:1,10175:1,10176:1</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">10180</Data></Cell>
+    <Cell><Data ss:Type="String">点仙笔</Data></Cell>
+    <Cell><Data ss:Type="String">10181:1,10182:1,10183:1,10184:1,10185:1,10186:1</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">10190</Data></Cell>
+    <Cell><Data ss:Type="String">散魔铠甲</Data></Cell>
+    <Cell><Data ss:Type="String">10191:1,10192:1,10193:1,10194:1,10195:1,10196:1</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">10200</Data></Cell>
+    <Cell><Data ss:Type="String">古神皮甲</Data></Cell>
+    <Cell><Data ss:Type="String">10201:1,10202:1,10203:1,10204:1,10205:1,10206:1</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">10210</Data></Cell>
+    <Cell><Data ss:Type="String">龙尊五行冠</Data></Cell>
+    <Cell><Data ss:Type="String">10211:1,10212:1,10213:1,10214:1,10215:1,10216:1</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">10220</Data></Cell>
+    <Cell><Data ss:Type="String">山河图屏风</Data></Cell>
+    <Cell><Data ss:Type="String">10221:1,10222:1,10223:1,10224:1,10225:1,10226:1</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">10230</Data></Cell>
+    <Cell><Data ss:Type="String">捆仙网</Data></Cell>
+    <Cell><Data ss:Type="String">10231:1,10232:1,10233:1,10234:1,10235:1,10236:1</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">10240</Data></Cell>
+    <Cell><Data ss:Type="String">子母道枯</Data></Cell>
+    <Cell><Data ss:Type="String">10241:1,10242:1,10243:1,10244:1,10245:1,10246:1</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">10250</Data></Cell>
+    <Cell><Data ss:Type="String">抽魂山石</Data></Cell>
+    <Cell><Data ss:Type="String">10251:1,10252:1,10253:1,10254:1,10255:1,10256:1</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+   </Row>
+  </Table>
+ </Worksheet>
+</Workbook>

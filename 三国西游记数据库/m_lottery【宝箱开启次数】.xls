@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:x="urn:schemas-microsoft-com:office:excel"
+ xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:html="http://www.w3.org/TR/REC-html40">
+ <Worksheet ss:Name="Table1">
+  <Table>
+   <Column ss:Index="2" ss:AutoFitWidth="0" ss:Width="110"/>   <Row>
+    <Cell><Data ss:Type="String">id</Data></Cell>
+    <Cell><Data ss:Type="String">name</Data></Cell>
+    <Cell><Data ss:Type="String">char_count</Data></Cell>
+    <Cell><Data ss:Type="String">server_count</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">4001</Data></Cell>
+    <Cell><Data ss:Type="String">每日石币礼包</Data></Cell>
+    <Cell><Data ss:Type="Number">10</Data></Cell>
+    <Cell><Data ss:Type="Number">100</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">4101</Data></Cell>
+    <Cell><Data ss:Type="String">每日灵石礼包</Data></Cell>
+    <Cell><Data ss:Type="Number">10</Data></Cell>
+    <Cell><Data ss:Type="Number">100</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">4201</Data></Cell>
+    <Cell><Data ss:Type="String">20级仙珍碎片宝箱</Data></Cell>
+    <Cell><Data ss:Type="Number">3</Data></Cell>
+    <Cell><Data ss:Type="Number">10</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">4202</Data></Cell>
+    <Cell><Data ss:Type="String">30级仙珍碎片宝箱</Data></Cell>
+    <Cell><Data ss:Type="Number">3</Data></Cell>
+    <Cell><Data ss:Type="Number">10</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">4203</Data></Cell>
+    <Cell><Data ss:Type="String">50级仙珍碎片宝箱</Data></Cell>
+    <Cell><Data ss:Type="Number">20</Data></Cell>
+    <Cell><Data ss:Type="Number">100</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">4204</Data></Cell>
+    <Cell><Data ss:Type="String">60级仙珍碎片宝箱</Data></Cell>
+    <Cell><Data ss:Type="Number">20</Data></Cell>
+    <Cell><Data ss:Type="Number">100</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">4301</Data></Cell>
+    <Cell><Data ss:Type="String">积分商店图鉴宝箱</Data></Cell>
+    <Cell><Data ss:Type="Number">10</Data></Cell>
+    <Cell><Data ss:Type="Number">100</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">4302</Data></Cell>
+    <Cell><Data ss:Type="String">积分商店灵石宝箱</Data></Cell>
+    <Cell><Data ss:Type="Number">100</Data></Cell>
+    <Cell><Data ss:Type="Number">5000</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">4303</Data></Cell>
+    <Cell><Data ss:Type="String">积分商店体力宝箱</Data></Cell>
+    <Cell><Data ss:Type="Number">100</Data></Cell>
+    <Cell><Data ss:Type="Number">5000</Data></Cell>
+   </Row>
+  </Table>
+ </Worksheet>
+</Workbook>

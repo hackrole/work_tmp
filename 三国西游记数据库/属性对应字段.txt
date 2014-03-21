@@ -1,0 +1,72 @@
+
+0 游戏币
+1 充值货币
+2 游戏其他货币1
+3 游戏其他货币2
+4 游戏其他货币3
+
+
+
+
+
+ATT_BASE_BEGIN = 0,
+		ATT_LIFE = ATT_BASE_BEGIN,		// 生命值             0
+		ATT_MAX_LIFE,				// 最大生命值         1
+		ATT_STUNT_VALUE,			// 怒气值             2
+		ATT_MAX_STUNT_VALUE,			// 最大怒气值         3
+		ATT_EXP,				// 经验值             4
+		ATT_NEED_EXP,				// 最大经验值         5
+		ATT_FORCE,				// 武艺               6
+		ATT_MAGIC,				// 无双               7
+		ATT_STUNT,				// 谋略               8
+
+  		ATT_NORMAL_ATTACK,			// 武艺攻击基础值     9
+		ATT_NORMAL_DEFENCE,			// 武艺防御基础值    10
+		ATT_MAGIC_ATTACK,			// 谋略攻击基础值    11
+		ATT_MAGIC_DEFENCE,			// 谋略防御基础值    12
+		ATT_STUNT_ATTACK,			// 无双攻击基础值    13
+		ATT_STUNT_DEFENCE,			// 无双防御基础值    14
+		ATT_CRIT,				// 暴击              15
+		ATT_TOUGHNESS,				// 韧性              16
+		ATT_WRECK,				// 抗格挡            17
+		ATT_BLOCK,				// 格挡              18
+		ATT_ACCURATE,				// 命中              19
+		ATT_MISS,				// 闪避              20 
+		ATT_ANTI_COUTERATTACK,			// 抗反击            21
+		ATT_COUTERATTACK,			// 反击              22
+
+  		ATT_RATE_NORMAL_ATTACK,			// +武艺攻击百分比    28
+		ATT_RATE_NORMAL_DEFENCE,		// +武艺防御百分比    29
+		ATT_RATE_MAGIC_ATTACK,			// +谋略攻击百分比    30
+		ATT_RATE_MAGIC_DEFENCE,			// +谋略防御百分比    31
+		ATT_RATE_STUNT_ATTACK,			// +无双攻击百分比    32
+		ATT_RATE_STUNT_DEFENCE,			// +无双防御百分比    33
+		ATT_RATE_CRIT,				// +暴击百分比        34
+		ATT_RATE_TOUGHNESS,			// +韧性百分比        35
+		ATT_RATE_WRECK,				// +抗格挡百分比      36
+		ATT_RATE_BLOCK,				// +格挡百分比        37
+		ATT_RATE_ACCURATE,			// +命中百分比        38
+		ATT_RATE_MISS,				// +闪避百分比        39
+		ATT_RATE_ANTI_COUTERATTACK,		// +抗格挡百分比      40
+		ATT_RATE_COUTERATTACK,			// +反击百分比        41
+
+  		ATT_ADD_NORMAL_ATTACK,			// +武艺攻击值        47
+		ATT_ADD_NORMAL_DEFENCE,			// +武艺防御值        48
+		ATT_ADD_MAGIC_ATTACK,			// +谋略攻击值        49
+		ATT_ADD_MAGIC_DEFENCE,			// +谋略防御值        50
+		ATT_ADD_STUNT_ATTACK,			// +无双攻击值        51
+		ATT_ADD_STUNT_DEFENCE,			// +无双防御值        52
+		ATT_ADD_CRIT,				// +暴击值            53
+		ATT_ADD_TOUGHNESS,			// +韧性值            54
+		ATT_ADD_WRECK,				// +抗格挡值          55
+		ATT_ADD_BLOCK,				// +格挡值            56
+		ATT_ADD_ACCURATE,			// +命中值            57
+		ATT_ADD_MISS,				// +闪避值            58
+		ATT_ADD_ANTI_COUTERATTACK,		// +抗格挡值          59
+		ATT_ADD_COUTERATTACK,			// +格挡值            60
+
+							// 神速		      100
+							// 铁壁		      101
+							// 催眠		      102
+							// 混乱		      103
+							// 眩晕		      104
