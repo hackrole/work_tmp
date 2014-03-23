@@ -1,0 +1,171 @@
+#+Author: hackrole
+#+Email: daipeng123456@gmail.com
+#+Date: 2014-03-23
+#+TITLE: cardgame表结构
+
+
+
+* 商城系统
+1> 商品分类表
+| column_name | type   | desc |
+|-------------+--------+------+
+| id          | int    |      |
+| name        | string |      |
+| sort_num    | int    |      |
+| ...         |        |      |
+
+2> 商品表
+| column_name | type        | desc |
+|-------------+-------------+------|
+| id          | int         |      |
+| category_id | foreign_key |      |
+| name        | string      |      |
+| price       | string      |      |
+| sort_num    | int         |      |
+| desc        | string      |      |
+| ...         |             |      |
+
+
+* 物品系统
+1> 物品表 <道具/宝石/..>
+分成多表??
+| column_name | type   | desc |
+|-------------+--------+------|
+| id          | int    |      |
+| name        | string |      |
+| type        | int    |      |
+| desc        | string |      |
+| ...         |        |      |
+
+
+
+* 怪物系统  NPC/宠物/怪物
+1> 怪物表
+| column_name | type   | desc |
+|-------------+--------+------|
+| id          | int    |      |
+| name        | string |      |
+| desc        | string |      |
+|             |        |      | 
+
+
+2> 关联技能表
+| column_name | type | desc |
+|-------------+------+------|
+| id          | int  |      |
+| m_id        | int  |      |
+| j_id        | int  |      |
+| ...         |      |      |
+
+
+* 技能系统
+1> 技能表
+| column_name | type   | desc |
+|-------------+--------+------|
+| id          | int    |      |
+| name        | string |      |
+| level       | int    |      |
+| ...         |        |      |
+
+2> 技能等级表??
+
+
+* 剧情系统??
+
+* 地下城系统
+1> 地下城表
+| column_name | type   | desc |
+|-------------+--------+------|
+| id          | int    |      |
+| name        | string |      |
+| ...         |        |      | 
+
+2> 地下城关联剧情表
+| column_name | type | desc |
+|-------------+------+------|
+| id          | int  |      |
+| d_id        | int  |      |
+| s_id        | int  |      |
+| ...         |      |      |
+  
+3> 地下城关联怪物表 <由剧情关联??>
+| column_name | type | desc |
+|-------------+------+------|
+| id          | int  |      |
+| m_id        | int  |      |
+| ...         |      |      |
+
+
+* 任务系统
+1> 任务表
+| column_name | type   | desc |
+|-------------+--------+------|
+| id          | int    |      |
+| name        | string |      |
+| desc        | string |      |
+| money       |        |      |
+| ...         |        |      |
+
+2> 任务关联剧情表
+
+3> 任务奖励表
+| column_name | type | desc |
+|-------------+------+------|
+| id          |      |      |
+| task_id     |      |      |
+| obj_id      |      |      |
+| ...         |      |      |
+
+
+* 用户系统
+1> 用户表
+| column_name | type   | desc |
+|-------------+--------+------|
+| id          | int    |      |
+| name        | string |      |
+| passwd      | string |      |
+| ...         |        |      | 
+
+2> 帐号表
+| column_name | type   | desc |
+|------------+--------+------|
+| id         | int    |      |
+| user_id    | int    |      |
+| name       | string |      |
+| ...        |        |      | 
+
+3> 帐号关联宠物表
+| column_name | type | desc |
+|-------------+------+------|
+| id          | int  |      |
+| account_id  | int  |      |
+| m_id        | int  |      |
+| level       | int  |      |
+| ...         |      |      | 
+
+4> 帐号关联物品表
+| column_name | type | desc |
+|-------------+------+------|
+| id          | int  |      |
+| account_id  | int  |      |
+| object_id   | int  |      |
+| ...         |      |      | 
+
+5> 帐号关联任务表 <已完成已接>
+| column_name | type | desc |
+|-------------+------+------|
+| id          | int  |      |
+| account_id  | int  |      |
+| task_id     | int  |      |
+| status      | int  |      |
+| ...         |      |      |
+
+6> 帐号关系表 <好友/屏蔽>
+| column_name | type | desc |
+|-------------+------+------|
+| id          | int  |      |
+| uid         | int  |      |
+| uuid        | int  |      |
+| type        |      |      |
+
+  
