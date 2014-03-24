@@ -396,7 +396,314 @@
 |-------------+------+------|
 
 ** ladder_score
+| column    | type | desc |
+|-----------+------+------|
+| id        | int  |      |
+| score     | int  |      |
+| effiiency | int  |      |
+
+** name
+| column      | type  | desc |
+|-------------+-------+------|
+| id          | int   |      |
+| dict??      |       |      |
+|-------------+-------+------|
+| female_name | list? |      |
+| male_name   | list? |      |
+| surname     | list? |      |
+|-------------+-------+------|
+
+** arena_loot
+| column | type   | desc |
+|--------+--------+------|
+| id     | int    |      |
+| drop   | string |      |
+| exp    | int    |      |
+| gold   | int    |      |
+
+** drop
+| column      | type   | desc |
+|-------------+--------+------|
+| id          | int    |      |
+| drop->list  |        |      |
+|-------------+--------+------|
+| count       | int    |      |
+| type        | string |      |
+| id          | string |      |
+| probability | int    |      |
+| level       | int    |      |
+|-------------+--------+------|
+
+** dialog
+| column       | type   | desc |
+|--------------+--------+------|
+| id           | int    |      |
+| value->list? |        |      |
+|--------------+--------+------|
+| info         | string |      |
+| npcid        | string |      |
+| npcname      | string |      |
+|--------------+--------+------|
+
+** drama
+| column      | type   | desc |
+|-------------+--------+------|
+| id          | int    |      |
+| value->dict |        |      |
+|-------------+--------+------|
+| repeat      | int    |      |
+| talkId      | string |      |
+|-------------+--------+------|
+
+** quest
+| column      | type   | desc |
+|-------------+--------+------|
+| id          | int    |      |
+| endTime     | int    |      |
+| ifFirst     | int    |      |
+| isOpen      | int    |      |
+| level       | int    |      |
+| repeatCount | int    |      |
+| finishType  | string |      |
+| dropid      | string |      |
+| mainType    | int    |      |
+| finishValue | list?  |      |
+| triggerIcon | string |      |
+| beginTime   | int    |      |
+| talkId      | int    |      |
+| nextId      | string |      |
+| desc        | string |      |
+| type        | int    |      |
+| name        | string |      |
+
+** item
+| column             | type   | desc |
+|--------------------+--------+------|
+| id                 | int    |      |
+| level_required_max | int    |      |
+| name               | string |      |
+| stack              | int    |      |
+| fun->dict??        |        |      |
+| model              | string |      |
+| desc               | string |      |
+| level_required_min | int    |      |
+| icon               | string |      |
+
+** skill_effect
+| column      | type  | desac |
+|-------------+-------+-------|
+| id          | int   |       |
+| coefficient | float |       |
+| valueType   | int   |       |
+| fcDuration  | int   |       |
+| fcId        | int   |       |
+| fcSuit      | int   |       |
+| triggerType | int   |       |
+| fcValue     | int   |       |
+| buffId      | int   |       |
+| Lvup        | int   |       |
+| isDisperse  | int   |       |
+
+** trp_probability
+| column   | type  | desc |
+|----------+-------+------|
+| id       | int   |      |
+| training | list? |      |
+
+** signin
+| column | type   | desc |
+|--------+--------+------|
+| id     | int    |      |
+| name   | string |      |
+| dropid | string |      |
+
+** levelup
+| column | type    | desc |
+|--------+---------+------|
+| id     | int     |      |
+| key    | string? |      | 
+
+** open_award
+| column           | type  | desc |
+|------------------+-------+------|
+| continue_award   | list? |      |
+| draw_award->list |       |      |
+|------------------+-------+------|
+| day              | int   |      |
+| dropid           | string |      |
+|------------------+--------+------|
+
+** tower_monster
+| column             | type   | desc |
+|--------------------+--------+------|
+| id                 | int    |      |
+| hardMonsterCount   | list   |      |
+| middlePlayerCount  | list   |      |
+| easySpeed          | int    |      |
+| easyPlayerCount    | list   |      |
+| dropid             | string |      |
+| hardSpeed          | int    |      |
+| hardPlayerCount    | list   |      |
+| easyMonster        | list   |      |
+| middleMonster      | list   |      |
+| hardMonster        | list   |      |
+| middleMonsterCount | list   |      |
+| middleSpeed        | int    |      |
+| easyMonsterCount   | list   |      |
+
+** tower_markup
 | column | type | desc |
 |--------+------+------|
 | id     | int  |      |
-|        |      |      |
+| value  | list |      |
+
+** tower_award
+| column | type | desc |
+|--------+------+------|
+| id     | int  |      |
+| value  | list? |      |
+
+** potential_silver
+| column  | type | desc |
+|---------+------+------|
+| id      | int  |      |
+| silver  | int  |      |
+| levelId | int  |      |
+
+** medal
+| column   | type   | desc |
+|----------+--------+------|
+| id       | int    |      |
+| medalid  | string |      |
+| chip     | int    |      |
+| name     | string |      |
+| chipicon | list   |      |
+| desc     | desc   |      |
+| gravel   | int    |      |
+| quality  | int    |      |
+| icon     | string |      |
+
+** medal_loot
+| column     | type   | desc |
+|------------+--------+------|
+| id         | int    |      |
+| gold       | int    |      |
+| cardlevel  | int    |      |
+| skilllevel | int    |      |
+| exp        | int    |      |
+| cardid     | string |      |
+| skillid    | string |      |
+
+** medal_level
+| column  | type   | desc |
+|---------+--------+------|
+| id      | int    |      |
+| typestr | string |      |
+| type    | int    |      |
+| exp     | int    |      |
+| val     | int    |      |
+
+** mall_price
+| column      | type   | desc |
+|-------------+--------+------|
+| id          | int    |      |
+| itemid      | string |      |
+| gemPrice    | int    |      |
+| order       | int    |      |
+| mallPriceid | string |      |
+| goldPrice   | int    |      |
+| goldPromote | int    |      |
+| type        | int    |      |
+| gemPromote  | int    |      |
+
+** practice_property
+| column        | type   | desc                                 |
+|---------------+--------+--------------------------------------|
+| id            | int    |                                      |
+| type          | string | "tenacity_property"/"wreck_property" |
+| property_list | list   |                                      |
+
+** practice_level
+| column     | type   | desc                   |
+|------------+--------+------------------------|
+| id         | int    |                        |
+| type       | string | wreck_level/card_point |
+| level_lsit | list   |                        |
+
+** luckcat_profit
+| column       | type | desc |
+|--------------+------+------|
+| id           | int  |      |
+| blessProfit  | int  |      |
+| beckonProfit | int  |      |
+| agreeProfit  | int  |      |
+
+** slotmachine??
+| column      | type  | desc |
+|-------------+-------+------|
+| id          | int   |      |
+| rate->list  |       |      |
+|-------------+-------+------|
+| benefit     | float |      |
+| probability | int   |      |
+|-------------+-------+------|
+| price       | list  |      |
+
+** vip??
+| column            | type | desc |
+|-------------------+------+------|
+| id                | int  |      |
+| arena_times_buy   | list |      |
+| arena_times_extra |      |      |
+| ...               |      |      |
+
+** protential??
+| column            | type | desc |
+|-------------------+------+------|
+| point             | list |      |
+| probability->list |      |      |
+|-------------------+------+------|
+| point             | int  |      |
+| gem_probability   | int  |      |
+| probability       | int  |      |
+|-------------------+------+------|
+
+** protential_price
+| column | type | desc |
+|--------+------+------|
+| id     | int  |      |
+| value  | list? |      |
+
+** potential/_price??
+
+** email
+| column      | type   | desc |
+|-------------+--------+------|
+| id          | int    |      |
+| email_title | string |      |
+| email_text  | string |      |
+| optype      | int    |      |
+| opvaule??   | string |      |
+| dropId      | string |      |
+
+** gift
+| column    | type   | desc |
+|-----------+--------+------|
+| id        | int    |      |
+| ps        | string |      |
+| tuhao     | int    |      |
+| gold      | int    |      |
+| memo      | string |      |
+| broadcast | string |      |
+| charm     | int    |      |
+| exp       | int    |      |
+| gem       | int    |      |
+
+** invite
+| column        | type | desc |
+|---------------+------+------|
+| id            | int  |      |
+| invite_award  | list |      |
+| invitee_award | string |      |
+
+** 
