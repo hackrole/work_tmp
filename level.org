@@ -1,0 +1,702 @@
+[
+    {
+        "stamina": 30,
+        "levelExp": 0,
+        "speed": 1,
+        "friend": 0,
+        "sp": 12
+    },
+    {
+        "stamina": 30,
+        "levelExp": 60,
+        "speed": 2,
+        "friend": 16,
+        "sp": 12
+    },
+    {
+        "stamina": 30,
+        "levelExp": 144,
+        "speed": 3,
+        "friend": 17,
+        "sp": 12
+    },
+    {
+        "stamina": 30,
+        "levelExp": 254,
+        "speed": 4,
+        "friend": 18,
+        "sp": 12
+    },
+    {
+        "stamina": 30,
+        "levelExp": 392,
+        "speed": 5,
+        "friend": 19,
+        "sp": 12
+    },
+    {
+        "stamina": 30,
+        "levelExp": 584,
+        "speed": 6,
+        "friend": 20,
+        "sp": 12
+    },
+    {
+        "stamina": 30,
+        "levelExp": 834,
+        "speed": 7,
+        "friend": 21,
+        "sp": 12
+    },
+    {
+        "stamina": 30,
+        "levelExp": 1146,
+        "speed": 8,
+        "friend": 22,
+        "sp": 12
+    },
+    {
+        "stamina": 30,
+        "levelExp": 1524,
+        "speed": 9,
+        "friend": 23,
+        "sp": 12
+    },
+    {
+        "stamina": 30,
+        "levelExp": 2691,
+        "speed": 10,
+        "friend": 24,
+        "sp": 12
+    },
+    {
+        "stamina": 30,
+        "levelExp": 3957,
+        "speed": 11,
+        "friend": 25,
+        "sp": 12
+    },
+    {
+        "stamina": 30,
+        "levelExp": 5327,
+        "speed": 12,
+        "friend": 26,
+        "sp": 12
+    },
+    {
+        "stamina": 30,
+        "levelExp": 6805,
+        "speed": 13,
+        "friend": 26,
+        "sp": 12
+    },
+    {
+        "stamina": 30,
+        "levelExp": 8394,
+        "speed": 14,
+        "friend": 27,
+        "sp": 12
+    },
+    {
+        "stamina": 30,
+        "levelExp": 10099,
+        "speed": 15,
+        "friend": 27,
+        "sp": 12
+    },
+    {
+        "stamina": 30,
+        "levelExp": 12030,
+        "speed": 16,
+        "friend": 28,
+        "sp": 12
+    },
+    {
+        "stamina": 30,
+        "levelExp": 14053,
+        "speed": 17,
+        "friend": 28,
+        "sp": 12
+    },
+    {
+        "stamina": 30,
+        "levelExp": 16170,
+        "speed": 18,
+        "friend": 29,
+        "sp": 12
+    },
+    {
+        "stamina": 30,
+        "levelExp": 18383,
+        "speed": 19,
+        "friend": 29,
+        "sp": 12
+    },
+    {
+        "stamina": 30,
+        "levelExp": 20693,
+        "speed": 20,
+        "friend": 30,
+        "sp": 12
+    },
+    {
+        "stamina": 30,
+        "levelExp": 23103,
+        "speed": 21,
+        "friend": 30,
+        "sp": 12
+    },
+    {
+        "stamina": 30,
+        "levelExp": 25615,
+        "speed": 22,
+        "friend": 31,
+        "sp": 12
+    },
+    {
+        "stamina": 30,
+        "levelExp": 28371,
+        "speed": 23,
+        "friend": 31,
+        "sp": 12
+    },
+    {
+        "stamina": 30,
+        "levelExp": 31385,
+        "speed": 24,
+        "friend": 31,
+        "sp": 12
+    },
+    {
+        "stamina": 30,
+        "levelExp": 34670,
+        "speed": 25,
+        "friend": 32,
+        "sp": 12
+    },
+    {
+        "stamina": 30,
+        "levelExp": 37976,
+        "speed": 26,
+        "friend": 32,
+        "sp": 12
+    },
+    {
+        "stamina": 30,
+        "levelExp": 41621,
+        "speed": 27,
+        "friend": 32,
+        "sp": 12
+    },
+    {
+        "stamina": 30,
+        "levelExp": 45621,
+        "speed": 28,
+        "friend": 33,
+        "sp": 12
+    },
+    {
+        "stamina": 30,
+        "levelExp": 49993,
+        "speed": 29,
+        "friend": 33,
+        "sp": 12
+    },
+    {
+        "stamina": 30,
+        "levelExp": 54755,
+        "speed": 30,
+        "friend": 33,
+        "sp": 12
+    },
+    {
+        "stamina": 30,
+        "levelExp": 59924,
+        "speed": 31,
+        "friend": 34,
+        "sp": 12
+    },
+    {
+        "stamina": 30,
+        "levelExp": 65568,
+        "speed": 32,
+        "friend": 34,
+        "sp": 12
+    },
+    {
+        "stamina": 30,
+        "levelExp": 71707,
+        "speed": 33,
+        "friend": 34,
+        "sp": 12
+    },
+    {
+        "stamina": 30,
+        "levelExp": 78310,
+        "speed": 34,
+        "friend": 35,
+        "sp": 12
+    },
+    {
+        "stamina": 30,
+        "levelExp": 85449,
+        "speed": 35,
+        "friend": 35,
+        "sp": 12
+    },
+    {
+        "stamina": 30,
+        "levelExp": 93090,
+        "speed": 36,
+        "friend": 35,
+        "sp": 12
+    },
+    {
+        "stamina": 30,
+        "levelExp": 101364,
+        "speed": 37,
+        "friend": 36,
+        "sp": 12
+    },
+    {
+        "stamina": 30,
+        "levelExp": 110182,
+        "speed": 38,
+        "friend": 36,
+        "sp": 12
+    },
+    {
+        "stamina": 30,
+        "levelExp": 119678,
+        "speed": 39,
+        "friend": 36,
+        "sp": 12
+    },
+    {
+        "stamina": 30,
+        "levelExp": 129819,
+        "speed": 40,
+        "friend": 37,
+        "sp": 12
+    },
+    {
+        "stamina": 30,
+        "levelExp": 140628,
+        "speed": 41,
+        "friend": 37,
+        "sp": 12
+    },
+    {
+        "stamina": 30,
+        "levelExp": 152188,
+        "speed": 42,
+        "friend": 37,
+        "sp": 12
+    },
+    {
+        "stamina": 30,
+        "levelExp": 164463,
+        "speed": 43,
+        "friend": 38,
+        "sp": 12
+    },
+    {
+        "stamina": 30,
+        "levelExp": 177539,
+        "speed": 44,
+        "friend": 38,
+        "sp": 12
+    },
+    {
+        "stamina": 30,
+        "levelExp": 191442,
+        "speed": 45,
+        "friend": 38,
+        "sp": 12
+    },
+    {
+        "stamina": 30,
+        "levelExp": 206198,
+        "speed": 46,
+        "friend": 39,
+        "sp": 12
+    },
+    {
+        "stamina": 30,
+        "levelExp": 221835,
+        "speed": 47,
+        "friend": 39,
+        "sp": 12
+    },
+    {
+        "stamina": 30,
+        "levelExp": 238313,
+        "speed": 48,
+        "friend": 39,
+        "sp": 12
+    },
+    {
+        "stamina": 30,
+        "levelExp": 255725,
+        "speed": 49,
+        "friend": 40,
+        "sp": 12
+    },
+    {
+        "stamina": 30,
+        "levelExp": 274166,
+        "speed": 50,
+        "friend": 40,
+        "sp": 12
+    },
+    {
+        "stamina": 30,
+        "levelExp": 293597,
+        "speed": 51,
+        "friend": 40,
+        "sp": 12
+    },
+    {
+        "stamina": 30,
+        "levelExp": 314187,
+        "speed": 52,
+        "friend": 41,
+        "sp": 12
+    },
+    {
+        "stamina": 30,
+        "levelExp": 335826,
+        "speed": 53,
+        "friend": 41,
+        "sp": 12
+    },
+    {
+        "stamina": 30,
+        "levelExp": 358615,
+        "speed": 54,
+        "friend": 41,
+        "sp": 12
+    },
+    {
+        "stamina": 30,
+        "levelExp": 382513,
+        "speed": 55,
+        "friend": 42,
+        "sp": 12
+    },
+    {
+        "stamina": 30,
+        "levelExp": 407623,
+        "speed": 56,
+        "friend": 42,
+        "sp": 12
+    },
+    {
+        "stamina": 30,
+        "levelExp": 434052,
+        "speed": 57,
+        "friend": 42,
+        "sp": 12
+    },
+    {
+        "stamina": 30,
+        "levelExp": 461759,
+        "speed": 58,
+        "friend": 43,
+        "sp": 12
+    },
+    {
+        "stamina": 30,
+        "levelExp": 490775,
+        "speed": 59,
+        "friend": 43,
+        "sp": 12
+    },
+    {
+        "stamina": 30,
+        "levelExp": 521212,
+        "speed": 60,
+        "friend": 43,
+        "sp": 12
+    },
+    {
+        "stamina": 30,
+        "levelExp": 553026,
+        "speed": 61,
+        "friend": 44,
+        "sp": 12
+    },
+    {
+        "stamina": 30,
+        "levelExp": 586331,
+        "speed": 62,
+        "friend": 44,
+        "sp": 12
+    },
+    {
+        "stamina": 30,
+        "levelExp": 621081,
+        "speed": 63,
+        "friend": 44,
+        "sp": 12
+    },
+    {
+        "stamina": 30,
+        "levelExp": 657393,
+        "speed": 64,
+        "friend": 45,
+        "sp": 12
+    },
+    {
+        "stamina": 30,
+        "levelExp": 695220,
+        "speed": 65,
+        "friend": 45,
+        "sp": 12
+    },
+    {
+        "stamina": 30,
+        "levelExp": 734765,
+        "speed": 66,
+        "friend": 45,
+        "sp": 12
+    },
+    {
+        "stamina": 30,
+        "levelExp": 775982,
+        "speed": 67,
+        "friend": 46,
+        "sp": 12
+    },
+    {
+        "stamina": 30,
+        "levelExp": 818909,
+        "speed": 68,
+        "friend": 46,
+        "sp": 12
+    },
+    {
+        "stamina": 30,
+        "levelExp": 863583,
+        "speed": 69,
+        "friend": 46,
+        "sp": 12
+    },
+    {
+        "stamina": 30,
+        "levelExp": 910131,
+        "speed": 70,
+        "friend": 47,
+        "sp": 12
+    },
+    {
+        "stamina": 30,
+        "levelExp": 958592,
+        "speed": 71,
+        "friend": 47,
+        "sp": 12
+    },
+    {
+        "stamina": 30,
+        "levelExp": 1009008,
+        "speed": 72,
+        "friend": 47,
+        "sp": 12
+    },
+    {
+        "stamina": 30,
+        "levelExp": 1061329,
+        "speed": 73,
+        "friend": 48,
+        "sp": 12
+    },
+    {
+        "stamina": 30,
+        "levelExp": 1115686,
+        "speed": 74,
+        "friend": 48,
+        "sp": 12
+    },
+    {
+        "stamina": 30,
+        "levelExp": 1172121,
+        "speed": 75,
+        "friend": 48,
+        "sp": 12
+    },
+    {
+        "stamina": 30,
+        "levelExp": 1230675,
+        "speed": 76,
+        "friend": 49,
+        "sp": 12
+    },
+    {
+        "stamina": 30,
+        "levelExp": 1291392,
+        "speed": 77,
+        "friend": 49,
+        "sp": 12
+    },
+    {
+        "stamina": 30,
+        "levelExp": 1354409,
+        "speed": 78,
+        "friend": 49,
+        "sp": 12
+    },
+    {
+        "stamina": 30,
+        "levelExp": 1419675,
+        "speed": 79,
+        "friend": 50,
+        "sp": 12
+    },
+    {
+        "stamina": 30,
+        "levelExp": 1487233,
+        "speed": 80,
+        "friend": 50,
+        "sp": 12
+    },
+    {
+        "stamina": 30,
+        "levelExp": 1557226,
+        "speed": 81,
+        "friend": 50,
+        "sp": 12
+    },
+    {
+        "stamina": 30,
+        "levelExp": 1629700,
+        "speed": 82,
+        "friend": 50,
+        "sp": 12
+    },
+    {
+        "stamina": 30,
+        "levelExp": 1704701,
+        "speed": 83,
+        "friend": 50,
+        "sp": 12
+    },
+    {
+        "stamina": 30,
+        "levelExp": 1782174,
+        "speed": 84,
+        "friend": 50,
+        "sp": 12
+    },
+    {
+        "stamina": 30,
+        "levelExp": 1862369,
+        "speed": 85,
+        "friend": 50,
+        "sp": 12
+    },
+    {
+        "stamina": 30,
+        "levelExp": 1945128,
+        "speed": 86,
+        "friend": 50,
+        "sp": 12
+    },
+    {
+        "stamina": 30,
+        "levelExp": 2030706,
+        "speed": 87,
+        "friend": 50,
+        "sp": 12
+    },
+    {
+        "stamina": 30,
+        "levelExp": 2119047,
+        "speed": 88,
+        "friend": 50,
+        "sp": 12
+    },
+    {
+        "stamina": 30,
+        "levelExp": 2210307,
+        "speed": 89,
+        "friend": 50,
+        "sp": 12
+    },
+    {
+        "stamina": 30,
+        "levelExp": 2304536,
+        "speed": 90,
+        "friend": 50,
+        "sp": 12
+    },
+    {
+        "stamina": 30,
+        "levelExp": 2401676,
+        "speed": 91,
+        "friend": 50,
+        "sp": 12
+    },
+    {
+        "stamina": 30,
+        "levelExp": 2501885,
+        "speed": 92,
+        "friend": 50,
+        "sp": 12
+    },
+    {
+        "stamina": 30,
+        "levelExp": 2605216,
+        "speed": 93,
+        "friend": 50,
+        "sp": 12
+    },
+    {
+        "stamina": 30,
+        "levelExp": 2711720,
+        "speed": 94,
+        "friend": 50,
+        "sp": 12
+    },
+    {
+        "stamina": 30,
+        "levelExp": 2821449,
+        "speed": 95,
+        "friend": 50,
+        "sp": 12
+    },
+    {
+        "stamina": 30,
+        "levelExp": 2934456,
+        "speed": 96,
+        "friend": 50,
+        "sp": 12
+    },
+    {
+        "stamina": 30,
+        "levelExp": 3050909,
+        "speed": 97,
+        "friend": 50,
+        "sp": 12
+    },
+    {
+        "stamina": 30,
+        "levelExp": 3170746,
+        "speed": 98,
+        "friend": 50,
+        "sp": 12
+    },
+    {
+        "stamina": 30,
+        "levelExp": 3294139,
+        "speed": 99,
+        "friend": 50,
+        "sp": 12
+    },
+    {
+        "stamina": 30,
+        "levelExp": 3421024,
+        "speed": 100,
+        "friend": 50,
+        "sp": 12
+    }
+]

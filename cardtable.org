@@ -1,0 +1,402 @@
+#+Author: hackrole
+#+Email: daipeng123456@gmail.com
+#+Date: 2014-03-24
+#+TITLE: cardgame表结构
+
+
+
+* 怪物系统(宠物/NPC/怪物)
+
+** 怪物ui表: monster_ui
+| column           | type    | desc   |
+|------------------+---------+--------|
+| monster_ui_id    | integer | 怪物ui |
+| monster_ui_name  | string  | ui名   |
+| mongster_ui_path | string  |        |
+
+** 怪物表 monster
+| column         | type        | desc   |
+|----------------+-------------+--------|
+| monster_id     | integer     | 怪物   |
+| mongster_ui_id | foreign key | 怪物ui |
+| monster_level  | int         | 等级   |
+| monster_name   | string      | 怪物名 |
+| intelligence   | int         | 智力   |
+| artifice       | int         | 技巧   |
+| hit            | int         |        |
+| pr             | int         |        |
+| strength       | int         | 力量   |
+| pt             | int         |        |
+| wreck          | int         |        |
+| pa             | int         |        |
+| attack         | int         | 攻击力 |
+| critical       | int         |        |
+| pd             | int         |        |
+| tenacity       | int         | 韧性   |
+| pi             | int         |        |
+| type           | string      |        |
+| immunity       | int         | 抵抗力 |
+| dodge          | int         | 闪避   |
+| star           | int         |        |
+| nature         | int         |        |
+| hp             | int         |        |
+| pe             | int         |        |
+| attackType     | int         |        |
+| icon           | string      |        |
+| md             | int         |        |
+| name           | string      |        |
+| level          | int         |        |
+| mr             | int         |        |
+| position       | int         |        |
+| block          | int         |        |
+
+** 怪物关联技能表 monster_skill
+| column     | type                 | desc |
+|------------+----------------------+------|
+| id         | int                  |      |
+| monster_id | foreign_key(monster) |      |
+| skill_id   | foreign_key(skill)   |      |
+
+** 宠物表 pet
+| column        | type    | desc |
+|---------------+---------+------|
+| pet_id        | int     |      |
+| intelligence  | int     |      |
+| chip          | int     |      |
+| evoId         | string  |      |
+| pagrowth      | int     |      |
+| hpgrowth      | int     |      |
+| artifice      | int     |      |
+| evoPrice      | int     |      |
+| quality       | int     |      |
+| pr            | int     |      |
+| strength      | int     |      |
+| wreck         | int     |      |
+| pa            | int     |      |
+| proportion    | int     |      |
+| attack        | int     |      |
+| critical      | int     |      |
+| tenacity      | int     |      |
+| desc          | string  |      |
+| type          | string? |      |
+| immunitylevel | int     |      |
+| immunity      | int     |      |
+| dodge         | int     |      |
+| hit           | int     |      |
+| nature        | string  |      |
+| evoObjectId   | list?   |      |
+| hp            | int     |      |
+| attackgrowth  | float   |      |
+| prgrowth      | int     |      |
+| maxlevel      | int     |      |
+| icon          | string  |      |
+| name          | string  |      |
+| controllevel  | int     |      |
+| attacktype    | int     |      |
+| mr            | int     |      |
+| mrgrowth      | int     |      |
+| model         | string  |      |
+| block         | int     |      |
+| luck          | list?   |      |
+
+** 宠物关联技能表 pet_skill
+| column   | type | desc |
+|----------+------+------|
+| id       | int  |      |
+| pet_id   | int  |      |
+| skill_id | int  |      |
+
+** 宠物等级表?? pet_level
+| column | type | desc |
+|--------+------+------|
+| id     | int  |      |
+| ...    |      |      |
+
+
+** 技能表 skill
+| column      | type   | desc |
+|-------------+--------+------|
+| skill_id    | int    |      |
+| maxLevel    | int    |      |
+| name        | string |      |
+| probability | int    |      |
+| nature      | int    |      |
+| mp          | int    |      |
+| quality     | int    |      |
+| chip        | int    |      |
+| initExp     | int    |      |
+| cooldown    | int    |      |
+| result      | list?  |      |
+| exp         | int    |      |
+| triggerType | int    |      |
+| position    | int    |      |
+| desc        | string |      |
+| type        | int    |      |
+| isActive    | int    |      |
+| icon        | int    |      |
+
+** level??
+| column   | type | desc |
+|----------+------+------|
+| stamina  | int  |      |
+| levelExp | int  |      |
+| speed    | int  |      |
+| friend   | int  |      |
+| sp       | int  |      |
+
+* 地下城系统
+
+** 地下城表 dungeon
+| column   | type    | desc |
+|----------+---------+------|
+| id       | int     |      |
+| name     | string  |      |
+| dayCount | int     |      |
+| stamina  | int     |      |
+| exp      | int     |      |
+| mayDrop  | list?   |      |
+| fieldId  | string? |      |
+
+** 地下城怪物波 dungeon_wave
+| column          | type   | desc |
+|-----------------+--------+------|
+| dungeon_wave_id | int    |      |
+| dungeon_id      | int    |      |
+| count           | list?? |      |
+| count_prob      | list?  |      |
+| monster         | list?  |      |
+| drop            | dict?  |      |
+| boss            | list?  |      |
+| more            | int    |      |
+
+** 游戏全局配置表 game_global_conf
+| column     | type   | desc |
+|------------+--------+------|
+| id         | int    |      |
+| conf_name  | string |      |
+| conf_value | 多类型??  |      |
+
+** 游戏小提示 prompt
+| column  | type   | desc |
+|---------+--------+------|
+| id      | int    |      |
+| content | string |      |
+
+** garcha??
+| column                        | type | desc |
+|-------------------------------+------+------|
+| garchar_100_free_luck_score   | int  |      |
+| garchar_10000_free_luck_score | int  |      |
+| garchar_100_luck_score        | int  |      |
+| garchar_100_free_time_score   | int  |      |
+| garchar_10000_free_time_score | int  |      |
+| garchar_10000_time_score      | int  |      |
+| garchar_10000_luck_score      | int  |      |
+| garchar_100_time_score        | int  |      |
+
+** equipment??
+| column       | type   | desc |
+|--------------+--------+------|
+| equipment_id | int    |      |
+| chip         | int    |      |
+| pagrowth     | int    |      |
+| hpgrowth     | int    |      |
+| quality      | int    |      |
+| ptgrowth     | int    |      |
+| pt           | int    |      |
+| pa           | int    |      |
+| mdgrowth     | int    |      |
+| eqid         | string |      |
+| icon         | string |      |
+| type         | int    |      |
+| price        | int    |      |
+| pd           | int    |      |
+| nature       | string |      |
+| hp           | int    |      |
+| pdgrowth     | int    |      |
+| stack        | int    |      |
+| desc         | string |      |
+| md           | int    |      |
+| name         | string |      |
+| levelreq     | int    |      |
+| position     | int    |      |
+
+** strength_probability??
+| column | type  | desc |
+|--------+-------+------|
+| id     | int   |      |
+| value  | list? |      |
+
+** strength_price??
+| column | type   | desc |
+|--------+--------+------|
+| id     | int    |      |
+| value  | list?? |      |
+
+** luckycat_level??
+| column      | type | desc |
+|-------------+------+------|
+| id          | int  |      |
+| levelupGold | int  |      |
+| luckyGold   | int  |      |
+| exp         | int  |      |
+| level       | int  |      |
+
+** luckycat_bless??
+| column             | type   | desc |
+|--------------------+--------+------|
+| id                 | int    |      |
+| blessid            | string |      |
+| probability        | int    |      |
+| blessTypeStr       | string |      |
+| value              | int    |      |
+| triggerProbability | int    |      |
+| icon               | string |      |
+| desc               | string |      |
+
+** luckycat_fortune??
+| column | type  | desc |
+|--------+-------+------|
+| id     | int   |      |
+| value  | list? |      |
+
+** luck??
+| column    | type   | desc |
+|-----------+--------+------|
+| id        | int    |      |
+| name      | string |      |
+| luckid    | int    |      |
+| value     | int    |      |
+| typestr   | string |      |
+| type      | int    |      |
+| valuetype | int    |      |
+
+**  language
+| column | type   | desc      |
+|--------+--------+-----------|
+| id     | int    |           |
+| name   | string | 智慧/攻击 |
+|        |        |           |
+
+** stone
+| column       | type   | desc |
+|--------------+--------+------|
+| id           | int    |      |
+| value-->list |        |      |
+|--------------+--------+------|
+| name         | string |      |
+| val          | int    |      |
+| level        | int    |      |
+| quality      | int    |      |
+| exp          | int    |      |
+| stoneid      | string |      |
+| typestr      | string |      |
+| gravel       | int    |      |
+| type         | int    |      |
+| icon         | string |      |
+|--------------+--------+------|
+
+** stone_probability??
+
+** stone_level
+| column       | type | desc |
+|--------------+------+------|
+| id           | int  |      |
+| value->list? |      |      |
+|--------------+------+------|
+| md           | int  |      |
+| strength     | int  |      |
+| exp          | int  |      |
+| pt           | int  |      |
+| intelligence | int  |      |
+| pd           | int  |      |
+| artifice     | int  |      |
+|--------------+------+------|
+
+** trp_price
+| column | type | desc |
+|--------+------+------|
+| id     | int  |      |
+| value  | int  |      |
+
+** trp
+| column | type | desc |
+|--------+------+------|
+| id     | int  |      |
+| skill  | int  |      |
+| card   | int  |      |
+
+** educate
+| column | type | desc |
+|--------+------+------|
+| id     | int  |      |
+| expptm | int  |      |
+| gold   | int  |      |
+
+** educate_grade
+| column      | type   | desc |
+|-------------+--------+------|
+| id          | int    |      |
+| trainer     | string |      |
+| price       | dict?  |      |
+| rate        | int    |      |
+| probability | int    |      |
+| vip         | int    |      |
+
+** skill_level
+| column      | type | desc |
+|-------------+------+------|
+| id          | int  |      |
+| value->list |      |      |
+
+** almanac
+| column       | type   | desc |
+|--------------+--------+------|
+| id           | int    |      |
+| itemid       | string |      |
+| dodge        | int    |      |
+| strength     | int    |      |
+| hit          | int    |      |
+| pt           | int    |      |
+| gold         | int    |      |
+| wreck        | int    |      |
+| intelligence | int    |      |
+| artifice     | int    |      |
+| md           | int    |      |
+| mt           | int    |      |
+| critical     | int    |      |
+| block        | int    |      |
+| pd           | int    |      |
+| cardid       | list?  |      |
+| tenacity     | int    |      |
+| speed        | int    |      |
+| gem          | int    |      |
+
+** almanac_combination
+| column             | type   | desc |
+|--------------------+--------+------|
+| id                 | int    |      |
+| val                | int    |      |
+| combin_skillid     | list?  |      |
+| dropid             | string |      |
+| combin_equipmentid | list?  |      |
+| combin_cardid      | list?  |      |
+| typestr            | string |      |
+| type               | int    |      |
+
+** reborn
+| column      | type | desc |
+|-------------+------+------|
+| id          | int  |      |
+| level       | int  |      |
+| star->list? |      |      |
+|-------------+------+------|
+| probability | int  |      |
+| star        | int  |      |
+|-------------+------+------|
+
+** ladder_score
+| column | type | desc |
+|--------+------+------|
+| id     | int  |      |
+|        |      |      |
