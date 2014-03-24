@@ -584,126 +584,311 @@
 | icon     | string |      |
 
 ** medal_loot
-| column     | type   | desc |
-|------------+--------+------|
-| id         | int    |      |
-| gold       | int    |      |
-| cardlevel  | int    |      |
-| skilllevel | int    |      |
-| exp        | int    |      |
-| cardid     | string |      |
-| skillid    | string |      |
+ | column     | type   | desc |
+ |------------+--------+------|
+ | id         | int    |      |
+ | gold       | int    |      |
+ | cardlevel  | int    |      |
+ | skilllevel | int    |      |
+ | exp        | int    |      |
+ | cardid     | string |      |
+ | skillid    | string |      |
 
 ** medal_level
-| column  | type   | desc |
-|---------+--------+------|
-| id      | int    |      |
-| typestr | string |      |
-| type    | int    |      |
-| exp     | int    |      |
-| val     | int    |      |
+ | column  | type   | desc |
+ |---------+--------+------|
+ | id      | int    |      |
+ | typestr | string |      |
+ | type    | int    |      |
+ | exp     | int    |      |
+ | val     | int    |      |
 
 ** mall_price
-| column      | type   | desc |
-|-------------+--------+------|
-| id          | int    |      |
-| itemid      | string |      |
-| gemPrice    | int    |      |
-| order       | int    |      |
-| mallPriceid | string |      |
-| goldPrice   | int    |      |
-| goldPromote | int    |      |
-| type        | int    |      |
-| gemPromote  | int    |      |
+ | column      | type   | desc |
+ |-------------+--------+------|
+ | id          | int    |      |
+ | itemid      | string |      |
+ | gemPrice    | int    |      |
+ | order       | int    |      |
+ | mallPriceid | string |      |
+ | goldPrice   | int    |      |
+ | goldPromote | int    |      |
+ | type        | int    |      |
+ | gemPromote  | int    |      |
 
-** practice_property
-| column        | type   | desc                                 |
-|---------------+--------+--------------------------------------|
-| id            | int    |                                      |
-| type          | string | "tenacity_property"/"wreck_property" |
-| property_list | list   |                                      |
+ ** practice_property
+ | column        | type   | desc                                 |
+ |---------------+--------+--------------------------------------|
+ | id            | int    |                                      |
+ | type          | string | "tenacity_property"/"wreck_property" |
+ | property_list | list   |                                      |
 
-** practice_level
-| column     | type   | desc                   |
-|------------+--------+------------------------|
-| id         | int    |                        |
-| type       | string | wreck_level/card_point |
-| level_lsit | list   |                        |
+ ** practice_level
+ | column     | type   | desc                   |
+ |------------+--------+------------------------|
+ | id         | int    |                        |
+ | type       | string | wreck_level/card_point |
+ | level_lsit | list   |                        |
 
 ** luckcat_profit
-| column       | type | desc |
-|--------------+------+------|
-| id           | int  |      |
-| blessProfit  | int  |      |
-| beckonProfit | int  |      |
-| agreeProfit  | int  |      |
+ | column       | type | desc |
+ |--------------+------+------|
+ | id           | int  |      |
+ | blessProfit  | int  |      |
+ | beckonProfit | int  |      |
+ | agreeProfit  | int  |      |
 
 ** slotmachine??
-| column      | type  | desc |
-|-------------+-------+------|
-| id          | int   |      |
-| rate->list  |       |      |
-|-------------+-------+------|
-| benefit     | float |      |
-| probability | int   |      |
-|-------------+-------+------|
-| price       | list  |      |
+ | column      | type  | desc |
+ |-------------+-------+------|
+ | id          | int   |      |
+ | rate->list  |       |      |
+ |-------------+-------+------|
+ | benefit     | float |      |
+ | probability | int   |      |
+ |-------------+-------+------|
+ | price       | list  |      |
 
 ** vip??
-| column            | type | desc |
-|-------------------+------+------|
-| id                | int  |      |
-| arena_times_buy   | list |      |
-| arena_times_extra |      |      |
-| ...               |      |      |
+ | column            | type | desc |
+ |-------------------+------+------|
+ | id                | int  |      |
+ | arena_times_buy   | list |      |
+ | arena_times_extra |      |      |
+ | ...               |      |      |
 
 ** protential??
-| column            | type | desc |
-|-------------------+------+------|
-| point             | list |      |
-| probability->list |      |      |
-|-------------------+------+------|
-| point             | int  |      |
-| gem_probability   | int  |      |
-| probability       | int  |      |
-|-------------------+------+------|
+ | column            | type | desc |
+ |-------------------+------+------|
+ | point             | list |      |
+ | probability->list |      |      |
+ |-------------------+------+------|
+ | point             | int  |      |
+ | gem_probability   | int  |      |
+ | probability       | int  |      |
+ |-------------------+------+------|
 
 ** protential_price
-| column | type | desc |
-|--------+------+------|
-| id     | int  |      |
-| value  | list? |      |
+ | column | type | desc |
+ |--------+------+------|
+ | id     | int  |      |
+ | value  | list? |      |
 
 ** potential/_price??
 
 ** email
+ | column      | type   | desc |
+ |-------------+--------+------|
+ | id          | int    |      |
+ | email_title | string |      |
+ | email_text  | string |      |
+ | optype      | int    |      |
+ | opvaule??   | string |      |
+ | dropId      | string |      |
+
+** gift        
+ | column    | type   | desc |
+ |-----------+--------+------|
+ | id        | int    |      |
+ | ps        | string |      |
+ | tuhao     | int    |      |
+ | gold      | int    |      |
+ | memo      | string |      |
+ | broadcast | string |      |
+ | charm     | int    |      |
+ | exp       | int    |      |
+ | gem       | int    |      |
+
+** invite
+ | column        | type | desc |
+ |---------------+------+------|
+ | id            | int  |      |
+ | invite_award  | list |      |
+ | invitee_award | string |      |
+
+** infection_battle
+ | column          | type   | desc |
+ |-----------------+--------+------|
+ | id              | int    |      |
+ | hit_dropid      | string |      |
+ | prestige        | int    |      |
+ | monster         | list   |      |
+ | last_hit_dropid | string |      |
+ | caller_dropid   | string |      |
+
+** infection_prestige_price
+ | column        | type | desc |
+ |---------------+------+------|
+ | id            | int  |      |
+ | value->list?? |      |      |
+ |---------------+------+------|
+ |               |      |      |
+ |---------------+------+------|
+
+** infection_damage_award
+ | column      | type | desc |
+ |-------------+------+------|
+ | id          | int  |      |
+ | value->list |      |      |
+
+** infection_prestige_award
+| column      | type | desc |
+|-------------+------+------|
+| id          | int  |      |
+| value->list |      |      |
+
+** infection_exploit_price
 | column      | type   | desc |
 |-------------+--------+------|
 | id          | int    |      |
-| email_title | string |      |
-| email_text  | string |      |
-| optype      | int    |      |
-| opvaule??   | string |      |
-| dropId      | string |      |
+| value->list |        |      |
+|-------------+--------+------|
+| exploit     | int    |      |
+| limit       | int    |      |
+| dropid      | string |      |
 
-** gift
-| column    | type   | desc |
-|-----------+--------+------|
-| id        | int    |      |
-| ps        | string |      |
-| tuhao     | int    |      |
-| gold      | int    |      |
-| memo      | string |      |
-| broadcast | string |      |
-| charm     | int    |      |
-| exp       | int    |      |
-| gem       | int    |      |
+** account!
+| column      | type           | desc |
+|-------------+----------------+------|
+| id          | int            |      |
+| accountname | string         |      |
+| password    | string         |      |
+| nickname    | string         |      |
+| gender      | string<choice> |      |
+| roleid      | int            |      |
+| openid      | int            |      |
+| lastlogin   | time           |      |
+| longitude   | null           |      |
+| latitude    | null           |      |
 
-** invite
+** user!
+| column                | type | desc |
+|-----------------------+------+------|
+| id                    | int  |      |
+| roleid                | int  |      |
+| object->list?         |      |      |
+|-----------------------+------+------|
+| slotmachine?          |      |      |
+| vip_last_update_time? |      |      |
+|-----------------------+------+------|
+| avatar_id             |      |      |
+
+** quest
+| column         | type | desc |
+|----------------+------+------|
+| id             | int  |      |
+| current->list? |      |      |
+|----------------+------+------|
+| count          |      |      |
+| create_time    |      |      |
+|----------------+------+------|
+| drama->list?   |      |      |
+| finish->list   |      |      |
+
+** network
+| column              | type | desc |
+|---------------------+------+------|
+| id                  | int  |      |
+| roleid              | int  |      |
+| object->list        |      |      |
+|---------------------+------+------|
+| send_gift_record    | list |      |
+| sequenceid          | int  |      |
+| receive_gift_record | list |      |
+| gift                | dict |      |
+| tuhao               | int  |      |
+| request_list        | dict |      |
+| blacklist           | list |      |
+| charm               | int  |      |
+| nt_info             | dict |      |
+| friend_request      | dict |      |
+| mail                | dict |      |
+| message             | dict |      |
+| email               | dict |      |
+| friend              | dict |      |
+
+** medal_level
+| column      | type | desc |
+|-------------+------+------|
+| id          | int  |      |
+| roleid      | int  |      |
+| level       | int  |      |
+| shield_time | time |      |
+
+** medal_holder
+| column  | type   | desc |
+|---------+--------+------|
+| id      | int    |      |
+| roleid  | int    |      |
+| medalid | string |      |
+| chipnum | int    |      |
+
+** inventory??
+| column         | type       | desc |
+|----------------+------------+------|
+| id             | int        |      |
+| roleid         | int        |      |
+| object->list   |            |      |
+|----------------+------------+------|
+| stone          | list       |      |
+| item->list     | list(dict) |      |
+|----------------+------------+------|
+| itemid         | string     |      |
+| count          | int        |      |
+| id             | string     |      |
+|----------------+------------+------|
+| equipment_chip | dict       |      |
+| skill_chip     | dict       |      |
+| equipment      | list       |      |
+| team           | lsit       |      |
+| card_chip      | dict       |      |
+| medal          | dict       |      |
+| skill          | list       |      |
+| card           | list(dict) |      |
+| init_star      |            |      |
+| strength       |            |      |
+| level          |            |      |
+| ...            |            |      |
+
+** facility
+| column     | type   | desc |
+|------------+--------+------|
+| id         | int    |      |
+| name       | string |      |
+| object->?? | list   |      |
+|------------+--------+------|
+|            |        |      |
+|------------+--------+------|
+
+** dungeon
 | column        | type | desc |
 |---------------+------+------|
 | id            | int  |      |
-| invite_award  | list |      |
-| invitee_award | string |      |
+| roleid        | int  |      |
+| object->list? |      |      |
+|---------------+------+------|
+| current_field |      |      |
+| fieldid       |      |      |
+| ...           |      |      |
+|               |      |      |
+|---------------+------+------|
 
-** 
+** almanac??
+| column       | type | desc |
+|--------------+------+------|
+| id           | int  |      |
+| roleid       | int  |      |
+| object->list |      |      |
+|--------------+------+------|
+| equipment    | list |      |
+| skill        | list |      |
+| combine      | list |      |
+| card         | list |      |
+|--------------+------+------|
+
+** admin
+| column   | type   | desc |
+|----------+--------+------|
+| idadmin  | int    |      |
+| username | string |      |
+| password | string |      |
