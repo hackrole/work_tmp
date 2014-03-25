@@ -14,7 +14,7 @@
 | monster_ui_name  | string  | ui名   |
 | mongster_ui_path | string  |        |
 
-** 怪物表 monster
+** 怪物表 monster -> config(monster)
 | column         | type        | desc   |
 |----------------+-------------+--------|
 | monster_id     | integer     | 怪物   |
@@ -113,7 +113,7 @@
 | ...    |      |      |
 
 
-** 技能表 skill
+** 技能表 skill -> config(skill)
 | column      | type   | desc |
 |-------------+--------+------|
 | skill_id    | int    |      |
@@ -570,7 +570,7 @@
 | silver  | int  |      |
 | levelId | int  |      |
 
-** medal
+** medal 勋章?
 | column   | type   | desc |
 |----------+--------+------|
 | id       | int    |      |
@@ -583,7 +583,7 @@
 | quality  | int    |      |
 | icon     | string |      |
 
-** medal_loot
+** medal_loot 勋章抢夺
  | column     | type   | desc |
  |------------+--------+------|
  | id         | int    |      |
@@ -603,7 +603,7 @@
  | exp     | int    |      |
  | val     | int    |      |
 
-** mall_price
+** mall_price 商场？？
  | column      | type   | desc |
  |-------------+--------+------|
  | id          | int    |      |
@@ -616,21 +616,21 @@
  | type        | int    |      |
  | gemPromote  | int    |      |
 
- ** practice_property
+** practice_property
  | column        | type   | desc                                 |
  |---------------+--------+--------------------------------------|
  | id            | int    |                                      |
  | type          | string | "tenacity_property"/"wreck_property" |
  | property_list | list   |                                      |
 
- ** practice_level
+** practice_level
  | column     | type   | desc                   |
  |------------+--------+------------------------|
  | id         | int    |                        |
  | type       | string | wreck_level/card_point |
- | level_lsit | list   |                        |
+ | level_list | list   |                        |
 
-** luckcat_profit
+** luckcat_profit 幸运猫盈利??
  | column       | type | desc |
  |--------------+------+------|
  | id           | int  |      |
@@ -638,7 +638,7 @@
  | beckonProfit | int  |      |
  | agreeProfit  | int  |      |
 
-** slotmachine??
+** slotmachine 赌博机??
  | column      | type  | desc |
  |-------------+-------+------|
  | id          | int   |      |
@@ -674,7 +674,7 @@
  | id     | int  |      |
  | value  | list? |      |
 
-** potential/_price??
+** potential/_price?? 重复
 
 ** email
  | column      | type   | desc |
@@ -699,7 +699,7 @@
  | exp       | int    |      |
  | gem       | int    |      |
 
-** invite
+** invite 
  | column        | type | desc |
  |---------------+------+------|
  | id            | int  |      |
@@ -725,19 +725,19 @@
  |               |      |      |
  |---------------+------+------|
 
-** infection_damage_award
+** infection_damage_award 
  | column      | type | desc |
  |-------------+------+------|
  | id          | int  |      |
  | value->list |      |      |
 
-** infection_prestige_award
+** infection_prestige_award 感染声望奖励??
 | column      | type | desc |
 |-------------+------+------|
 | id          | int  |      |
 | value->list |      |      |
 
-** infection_exploit_price
+** infection_exploit_price 感染功勋价格??
 | column      | type   | desc |
 |-------------+--------+------|
 | id          | int    |      |
@@ -748,30 +748,30 @@
 | dropid      | string |      |
 
 ** account!
-| column      | type           | desc |
-|-------------+----------------+------|
-| id          | int            |      |
-| accountname | string         |      |
-| password    | string         |      |
-| nickname    | string         |      |
-| gender      | string<choice> |      |
-| roleid      | int            |      |
-| openid      | int            |      |
-| lastlogin   | time           |      |
-| longitude   | null           |      |
-| latitude    | null           |      |
+| column      | type           | desc         |
+|-------------+----------------+--------------|
+| id          | int            | 用户id       |
+| accountname | string         | username     |
+| password    | string         | pwd          |
+| nickname    | string         | 昵称         |
+| gender      | string<choice> | 性别         |
+| roleid      | int            |              |
+| openid      | int            |              |
+| lastlogin   | time           | 最后登录时间 |
+| longitude   | null           | 坐标         |
+| latitude    | null           | 坐标         |
 
 ** user!
-| column                | type | desc |
-|-----------------------+------+------|
-| id                    | int  |      |
-| roleid                | int  |      |
-| object->list?         |      |      |
-|-----------------------+------+------|
-| slotmachine?          |      |      |
-| vip_last_update_time? |      |      |
-|-----------------------+------+------|
-| avatar_id             |      |      |
+| column                | type | desc     |
+|-----------------------+------+----------|
+| id                    | int  | 用户id   |
+| roleid                | int  |          |
+| object->list?         |      |          |
+|-----------------------+------+----------|
+| slotmachine?          |      | 赌博机？ |
+| vip_last_update_time? |      |          |
+|-----------------------+------+----------|
+| avatar_id             |      | 头像id   |
 
 ** quest
 | column         | type | desc |
@@ -807,7 +807,7 @@
 | email               | dict |      |
 | friend              | dict |      |
 
-** medal_level
+** medal_level 勋章??
 | column      | type | desc |
 |-------------+------+------|
 | id          | int  |      |
@@ -823,7 +823,7 @@
 | medalid | string |      |
 | chipnum | int    |      |
 
-** inventory??
+** inventory 库存??
 | column         | type       | desc |
 |----------------+------------+------|
 | id             | int        |      |
@@ -860,7 +860,7 @@
 |            |        |      |
 |------------+--------+------|
 
-** dungeon
+** dungeon 地下城
 | column        | type | desc |
 |---------------+------+------|
 | id            | int  |      |
@@ -873,7 +873,7 @@
 |               |      |      |
 |---------------+------+------|
 
-** almanac??
+** almanac 年历??
 | column       | type | desc |
 |--------------+------+------|
 | id           | int  |      |
